@@ -1,4 +1,4 @@
-var letters = ["z", "u", "k", "q"];
+var letters = ["a", "e", "i", "o", "u"];
 
 // This array will hold what we guess
 var guessedLetters = [];
