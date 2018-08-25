@@ -9,22 +9,28 @@
 <body>
 
   <!-- The title of the page -->
-  <h1>The Psychic Game</h1>
-
-  <p>Guess what letter I'm thinking of</p>
-
-  <!-- This is where we will have the win counter in HTML. It initially shows 0  -->
-  <p>Wins: <span id="wins">0</span></p>
-
-  <!-- This is where we will have the loss counter in HTML. It initially shows 0 -->
-  <p>Losses: <span id="losses">0</span></p>
-
-  <!-- This is where we will post the guessesLeft. Initially nothing is shown. -->
-  <p>Guesses Left: <span id="guesses-left"></span></p>
-
-  <!-- This is where we will post the guessesSoFar. Initially nothing is shown. -->
-  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>
-
+  <div class="wrapper">
+    <h1>Hangman</h1>
+     <h2>JavaScript Hangman Game</h2>
+     <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
+  </div>
+  <div class="wrapper">
+     <div id="buttons">
+     </div>  
+     <p id="catagoryName"></p>
+     <div id="hold">
+     </div>
+     <p id="mylives"></p>
+     <p id="clue">Clue -</p>  
+  
+     <div class="container">
+       <button id="hint">Hint</button>
+       <button id="reset">Play again</button>
+     </div>
+  </div>
+  
+  
+  
   <!-- Link to JavaScript game.js -->
   <script type="text/javascript" src="assets/javascript/game.js"></script>
 
